@@ -21,7 +21,7 @@ def caesar_cipher(text: str, shift: int) -> str:
 
 def main():
     if len(sys.argv) != 5:
-        print("Usage: python shift_happens.py <encrypt|decrypt> <shift> <input_file> <output_file>")
+        print("Usage: python shift_happens.py <encrypt|decrypt> <shift_value> <input_file> <output_file>")
         sys.exit(1)
     
     mode = sys.argv[1].lower()
